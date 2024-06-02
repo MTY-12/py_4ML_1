@@ -239,6 +239,13 @@
 
     **Why Before Next Step:** Ensuring the local repository is up-to-date prevents conflicts when pushing changes to the remote repository.
 
+    9. **Force Merging by allwing Unrelated Histories **
+          git pull origin main --allow-unrelated-histories
+          git add .
+          git commit -m "Resolved merge conflicts"
+          git push -u origin main
+
+
 8. **Push the `main` branch to the remote repository.**
 
 ## Deployment
