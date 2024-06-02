@@ -228,6 +228,19 @@
 
     **Why Before Next Step:** Ensuring the code is backed up and in a shareable state before deployment provides a safety net and facilitates collaboration.
 
+    8. **Fetch and merge changes from the remote repository.**
+
+    ```bash
+    git fetch origin
+    git pull origin main
+    ```
+
+    **Reason:** Fetching and merging changes ensures that your local repository is up-to-date with the remote repository. This prevents conflicts and ensures that your local changes are compatible with the remote repository.
+
+    **Why Before Next Step:** Ensuring the local repository is up-to-date prevents conflicts when pushing changes to the remote repository.
+
+8. **Push the `main` branch to the remote repository.**
+
 ## Deployment
 
 ### Step 11: Build and Run the Docker Container
